@@ -21,12 +21,6 @@ namespace Glaubers.Tcc.Api.Functions.Functions
             return new OkObjectResult($"Teste GetByID: {id}");
         }
 
-        [FunctionName("Teste-Commit")]
-        public static IActionResult GetCommit([HttpTrigger(AuthorizationLevel.Function, "get", Route = "teste/get/{id}")] HttpRequest req, Guid id)
-        {
-            return new OkObjectResult($"Teste Commit: {id}");
-        }
-
         [FunctionName("Teste-Post")]
         public static IActionResult Post([HttpTrigger(AuthorizationLevel.Function, "post", Route = "teste/post")] HttpRequest req, ILogger log)
         {
