@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Functions", "01 - Functions", "{AA50A7EB-931C-4D30-91B8-E75CE980E115}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - API", "01 - API", "{AA50A7EB-931C-4D30-91B8-E75CE980E115}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{BFAA6BE5-DB25-4B19-A831-A0A937E8F12D}"
 EndProject
@@ -17,19 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Repository", "07 - Rep
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 -  Extensions", "08 -  Extensions", "{7E65707E-4C69-4C87-AF83-710B684E1CD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Extensions", "Glaubers.Tcc.Api.Extensions\Glaubers.Tcc.Api.Extensions.csproj", "{563614C6-3F5D-45B4-A014-A06E5F5EE44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Extensions", "Glaubers.Tcc.Api.Extensions\Glaubers.Tcc.Api.Extensions.csproj", "{563614C6-3F5D-45B4-A014-A06E5F5EE44B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Repository", "Glaubers.Tcc.Api.Repository\Glaubers.Tcc.Api.Repository.csproj", "{A981F3E4-C219-44A6-9020-C8BE209E39CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Repository", "Glaubers.Tcc.Api.Repository\Glaubers.Tcc.Api.Repository.csproj", "{A981F3E4-C219-44A6-9020-C8BE209E39CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Infra.Ioc", "Glaubers.Tcc.Api.Infra.Ioc\Glaubers.Tcc.Api.Infra.Ioc.csproj", "{F6A0CCA9-AD8B-439A-8267-959D750C97C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Infra.Ioc", "Glaubers.Tcc.Api.Infra.Ioc\Glaubers.Tcc.Api.Infra.Ioc.csproj", "{F6A0CCA9-AD8B-439A-8267-959D750C97C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Infra", "Glaubers.Tcc.Api.Infra\Glaubers.Tcc.Api.Infra.csproj", "{4CCB092E-D237-458B-9D45-8C2F2B0D9B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Infra", "Glaubers.Tcc.Api.Infra\Glaubers.Tcc.Api.Infra.csproj", "{4CCB092E-D237-458B-9D45-8C2F2B0D9B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Domain", "Glaubers.Tcc.Api.Domain\Glaubers.Tcc.Api.Domain.csproj", "{53785BC0-1771-45CD-8C76-AA5000BB7D47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Domain", "Glaubers.Tcc.Api.Domain\Glaubers.Tcc.Api.Domain.csproj", "{53785BC0-1771-45CD-8C76-AA5000BB7D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Application", "Glaubers.Tcc.Api.Application\Glaubers.Tcc.Api.Application.csproj", "{0E931197-504F-4350-A9BB-57D37CA5895E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Application", "Glaubers.Tcc.Api.Application\Glaubers.Tcc.Api.Application.csproj", "{0E931197-504F-4350-A9BB-57D37CA5895E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glaubers.Tcc.Api.Functions", "Glaubers.Tcc.Api.Functions\Glaubers.Tcc.Api.Functions.csproj", "{1C45138D-72BE-490F-816D-7764B31C05B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glaubers.Tcc.Api.Service", "Glaubers.Tcc.Api.Service\Glaubers.Tcc.Api.Service.csproj", "{F15EFB10-3472-4533-B8F5-81F1CE0A40BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,10 +61,10 @@ Global
 		{0E931197-504F-4350-A9BB-57D37CA5895E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E931197-504F-4350-A9BB-57D37CA5895E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E931197-504F-4350-A9BB-57D37CA5895E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C45138D-72BE-490F-816D-7764B31C05B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C45138D-72BE-490F-816D-7764B31C05B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C45138D-72BE-490F-816D-7764B31C05B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C45138D-72BE-490F-816D-7764B31C05B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15EFB10-3472-4533-B8F5-81F1CE0A40BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15EFB10-3472-4533-B8F5-81F1CE0A40BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15EFB10-3472-4533-B8F5-81F1CE0A40BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15EFB10-3472-4533-B8F5-81F1CE0A40BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,7 +76,7 @@ Global
 		{4CCB092E-D237-458B-9D45-8C2F2B0D9B08} = {E22BA810-3A1E-4A58-AB92-512A361977D1}
 		{53785BC0-1771-45CD-8C76-AA5000BB7D47} = {3AF963F4-767A-4E8C-A06A-54EE4944B28E}
 		{0E931197-504F-4350-A9BB-57D37CA5895E} = {BFAA6BE5-DB25-4B19-A831-A0A937E8F12D}
-		{1C45138D-72BE-490F-816D-7764B31C05B6} = {AA50A7EB-931C-4D30-91B8-E75CE980E115}
+		{F15EFB10-3472-4533-B8F5-81F1CE0A40BF} = {AA50A7EB-931C-4D30-91B8-E75CE980E115}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7D6169D-7FD4-4828-9280-BD71A2FAC02D}
